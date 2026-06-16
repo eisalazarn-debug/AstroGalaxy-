@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="AstroGalaxy_Canvas.png" alt="AstroGalaxy Banner" width="100%"/>
 
 # 🌍 AstroGalaxy
 ### *Donde la conciencia ambiental se convierte en una aventura galáctica*
@@ -23,7 +22,7 @@
 
 </div>
 
-La contaminación ambiental y el desperdicio de energía eléctrica en las escuelas de Quito se han convertido en una problemática urgente. El uso innecesario de luces, equipos electrónicos y otros recursos energéticos incrementa el consumo de electricidad, generando impactos ambientales y económicos en más de **500 instituciones educativas**.
+La contaminación ambiental y el no realizar acciones para cuidar el medio ambiente en las escuelas de Quito se han convertido en una problemática urgente. El uso innecesario de luces, equipos electrónicos y otros recursos energéticos incrementa el consumo de electricidad, generando impactos ambientales y económicos en más de **500 instituciones educativas**.
 
 La raíz del problema es clara: **la falta de conciencia ambiental en los estudiantes**. Necesitamos una solución que eduque, motive y cambie hábitos desde adentro.
 
@@ -31,7 +30,7 @@ La raíz del problema es clara: **la falta de conciencia ambiental en los estudi
 
 ## 🚀 Nuestra Solución: AstroGalaxy
 
-**AstroGalaxy** es una aplicación educativa gamificada diseñada para **monitorear el consumo de energía** y **fomentar hábitos sostenibles** en instituciones educativas, comenzando por Eight Academy.
+**AstroGalaxy** es una aplicación educativa gamificada diseñada para **fomentar hábitos sostenibles** en instituciones educativas, comenzando por Eight Academy.
 
 A través de retos ambientales, competencias entre salones y un sistema de recompensas con **NFTs**, transformamos el cuidado del planeta en una aventura espacial que los estudiantes quieren jugar.
 
@@ -39,7 +38,7 @@ A través de retos ambientales, competencias entre salones y un sistema de recom
 
 | 🌿 Monitoreo | 🏆 Retos | 🎖️ Recompensas | 📊 Estadísticas |
 |:---:|:---:|:---:|:---:|
-| Consumo en tiempo real verificado por docentes | Competencias entre salones | NFTs por logros ambientales | Impacto visible y medible |
+| Consumo en tiempo real verificado por una IA | Competencias entre salones | NFTs por logros ambientales | Impacto visible y medible |
 
 </div>
 
@@ -48,7 +47,7 @@ A través de retos ambientales, competencias entre salones y un sistema de recom
 ## ⚙️ ¿Cómo Funciona?
 
 ### 🔍 Monitoreo en Tiempo Real
-La aplicación se conecta a **retos ambientales verificados por docentes** por cada nivel. Los datos se registran y actualizan para que todos vean el impacto colectivo de sus acciones.
+La aplicación se conecta a **retos ambientales verificados por IA** por cada nivel. Los datos se registran y actualizan para que todos vean el impacto colectivo de sus acciones.
 
 ### 🏅 Competencias y Retos
 Cada salón participa en **retos ambientales semanales**: apagar luces, reducir uso de plástico, separar residuos. Los salones con mayor puntaje reciben **recompensas y reconocimientos públicos**.
@@ -77,17 +76,6 @@ La app envía **notificaciones inteligentes** para recordar qué retos están ac
 
 Cada NFT es una **insignia digital única** que los estudiantes acumulan en su perfil. Son prueba de su compromiso ambiental y pueden mostrarse en comunidad.
 
----
-
-## 🗺️ Diagrama de Flujo
-
-<div align="center">
-
-<img src="astrogalaxy-diagrama-flujo.svg" alt="Diagrama de Flujo AstroGalaxy" width="85%"/>
-
-</div>
-
----
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -96,7 +84,7 @@ Cada NFT es una **insignia digital única** que los estudiantes acumulan en su p
 | Tecnología | Uso en AstroGalaxy |
 |:---:|:---|
 | 🔗 **NFTs** | Insignias digitales únicas por cada logro ambiental completado |
-| 🤖 **Inteligencia Artificial** | Diseño adaptativo de la app, recomendaciones de retos personalizados |
+| 🤖 **Inteligencia Artificial** | Diseño adaptativo de la app, recomendaciones de retos personalizados | verificación de evidencia entregada 
 | 🎮 **Gamificación** | Plataforma educativa con rankings, retos y sistema de recompensas |
 | 📱 **App Móvil** | Acceso desde cualquier dispositivo para estudiantes y docentes |
 
@@ -114,7 +102,6 @@ Cada NFT es una **insignia digital única** que los estudiantes acumulan en su p
 
 AstroGalaxy se alinea directamente con el **Objetivo de Desarrollo Sostenible 13** de las Naciones Unidas:
 
-- ✅ Fomenta la **reducción del consumo de energía** en instituciones educativas
 - ✅ Promueve la adopción de **prácticas más sostenibles** desde la infancia
 - ✅ Genera **conciencia colectiva** sobre el cambio climático en comunidades escolares
 - ✅ Empodera a los jóvenes como **agentes de cambio ambiental**
@@ -148,10 +135,7 @@ AstroGalaxy se alinea directamente con el **Objetivo de Desarrollo Sostenible 13
 | 📈 [**Investigación de Mercado**](AstroGalaxy_InvestigacionMercado.docx.pdf) | Análisis del entorno y demanda |
 | 🌍 [**Justificación ODS**](AstroGalaxy_Justificacion_ODS.docx.pdf) | Alineación con objetivos de desarrollo sostenible |
 | 📑 [**White Paper**](AstroGalaxy_WhitePaper.docx.pdf) | Documento técnico completo del proyecto |
-| 🖥️ [**Presentación**](AstroGalaxy_Presentacion.pptx.pdf) | Slides oficiales para el hackathon |
-
-</div>
-
+| 🖥️ [**Presentación**](AstroGalaxy_Presentacion.pptx.pdf) | Slides oficiales para el hack
 ---
 
 ## 🌟 Impacto Esperado
