@@ -2,6 +2,7 @@
 
 
 # 🌍 AstroGalaxy
+
 ### *Donde la conciencia ambiental se convierte en una aventura galáctica*
 
 [![ODS 13](https://img.shields.io/badge/ODS%2013-Acción%20por%20el%20Clima-brightgreen?style=for-the-badge&logo=leaf&logoColor=white)](https://sdgs.un.org/goals/goal13)
@@ -125,18 +126,6 @@ AstroGalaxy se alinea directamente con el **Objetivo de Desarrollo Sostenible 13
 
 ---
 
-## 📄 Documentación del Proyecto
-
-<div align="center">
-
-| Documento | Descripción |
-|:---:|:---|
-| 📊 [**Canvas del Proyecto**](AstroGalaxy_Canvas.png) | Modelo de negocio y propuesta de valor |
-| 📈 [**Investigación de Mercado**](AstroGalaxy_InvestigacionMercado.docx.pdf) | Análisis del entorno y demanda |
-| 🌍 [**Justificación ODS**](AstroGalaxy_Justificacion_ODS.docx.pdf) | Alineación con objetivos de desarrollo sostenible |
-| 📑 [**White Paper**](AstroGalaxy_WhitePaper.docx.pdf) | Documento técnico completo del proyecto |
-| 🖥️ [**Presentación**](AstroGalaxy_Presentacion.pptx.pdf) | Slides oficiales para el hack
----
 
 ## 🌟 Impacto Esperado
 
