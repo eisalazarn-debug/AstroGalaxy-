@@ -1,0 +1,9 @@
+# Dependencias del servicio de IA (Python)
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+pillow==10.4.0
+imagehash==4.3.1
+# Para un modelo de visión real, añade uno de estos:
+# torch==2.4.0
+# tensorflow==2.17.0
