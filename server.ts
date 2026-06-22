@@ -12,8 +12,11 @@
 
 import express, { Request, Response } from "express";
 import multer from "multer"; // recibe la foto (multipart/form-data)
+import cors from "cors";
+import fs from "fs";
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 const upload = multer({ dest: "uploads/" });
 
@@ -39,15 +42,20 @@ app.post("/v1/evidence", upload.single("photo"), async (req: Request, res: Respo
   if (!req.file) return res.status(400).json({ error: "Falta la foto de evidencia" });
 
   // Llamamos al microservicio de IA (Python/FastAPI)
+  const fileBuffer = fs.readFileSync(req.file.path);
   const form = new FormData();
   form.append("challenge", challenge);
-  form.append("photo", new Blob([await (await fetch(`file://${req.file.path}`)).arrayBuffer()]));
+  form.append("photo", new Blob([fileBuffer], { type: req.file.mimetype }), req.file.originalname);
 
   const ai = await fetch(`${AI_SERVICE}/verify`, { method: "POST", body: form })
-    .then((r) => r.json() as Promise<{ ai_verified: boolean; confidence: number; points: number }>);
+    .then((r) => r.json() as Promise<{ ai_verified: boolean; confidence: number; duplicate: boolean; points: number }>)
+    .finally(() => fs.unlink(req.file!.path, () => {}));
 
   if (!ai.ai_verified) {
-    return res.json({ ai_verified: false, confidence: ai.confidence, message: "La IA no pudo validar la evidencia" });
+    const message = ai.duplicate
+      ? "Esta foto ya fue utilizada como evidencia anteriormente."
+      : "La IA no pudo validar que la evidencia corresponda al reto.";
+    return res.json({ ai_verified: false, confidence: ai.confidence, duplicate: ai.duplicate, message });
   }
 
   // Premium → multiplicador x2
@@ -57,7 +65,7 @@ app.post("/v1/evidence", upload.single("photo"), async (req: Request, res: Respo
   await awardPoints(participant, mode, points);          // PostgreSQL
   const nft = await mintNft(participant, challenge, isPremium); // Solidity / ERC-721
 
-  res.json({ ai_verified: true, confidence: ai.confidence, points_awarded: points, nft });
+  res.json({ ai_verified: true, confidence: ai.confidence, duplicate: false, points_awarded: points, nft });
 });
 
 // ---------------------------------------------------------------------------
